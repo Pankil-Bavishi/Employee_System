@@ -77,7 +77,12 @@ WSGI_APPLICATION = 'emp_sys_proj.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+         'NAME': BASE_DIR / 'db.sqlite3',
+        # 'NAME': BASE_DIR / 'employee-db',
+        # 'USER': 'employee',
+        # 'PASSWORD': 'kXwT$eU4cj453l5t',
+
+
     }
 }
 
